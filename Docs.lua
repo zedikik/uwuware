@@ -46,7 +46,7 @@ Window:AddSlider({text = "Slider", flag = "slider1", value = 0, min = -50, max =
 --Keybind
 Window:AddBind({text = "Bind", flag = "bind", key = "MouseButton1", callback = function() print"pressed" end}) --key can also be Enum.UserInputType.MouseButton1, instead of the name/string
 Window:AddBind({text = "Bind", flag = "bind", hold = true, key = "E" , callback = function(a) if a then print"let go" else print"holding" end end}) --key can also be Enum.KeyCode.E, instead of the name/string
---Window:AddBind({text = "Toggle UI", key = "RightShift", callback = function() library:Close() end})
+--Window:AddBind({text = "Toggle UI", key = "RightShift", callback = function() Library:Close() end})
  
 --Color Picker
 Window:AddColor({text = "Color", flag = "color", color = Color3.fromRGB(255, 65, 65), callback = function(a) print(a) end})
