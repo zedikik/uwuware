@@ -3,7 +3,8 @@
 --
  
 --First define the library
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/edJT9EGX", true))()
+ --local Library = loadstring(game:HttpGet("https://pastebin.com/raw/edJT9EGX", true))()
+local Library = loadstring(game:HttpGet("https://github.com/zedikik/uwuware/blob/main/Loader.lua", true))()
 --To close/open the UI (after it's been initialized) use Library:Close() to toggle it, use the keybind option to quickly make a toggle for it without hassle (there is an example below)
  
 --Making a window
