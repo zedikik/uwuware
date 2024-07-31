@@ -12,7 +12,7 @@ local Window = Library:CreateWindow"Window"
 --There is a special property for windows which can be set to false (Window.canInit = false), if done so the window will not be initialized when Library:Init() is called
  
 --Making a folder
-Window:AddFolder"Folder"
+Window:AddFolder"Main"
 --Folders can be used exactly like windows, they can hold all the options, you can even put folders inside of folders inside of folders.. and so on
  
 --[[
