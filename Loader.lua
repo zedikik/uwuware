@@ -1654,6 +1654,7 @@ function library:Close()
 	end
 end
 
+-- custom func
 function library:Destroy()
 	if typeof(self.base) ~= "Instance" then end
 	self.open = false
